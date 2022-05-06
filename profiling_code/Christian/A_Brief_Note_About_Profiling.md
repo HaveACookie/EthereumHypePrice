@@ -1,0 +1,3 @@
+<h1>A Brief Note about profiling</h1>
+
+<p>The two images enclosed show my record counter running before and after cleaning the data(which is in etl_code/Christian/CleanData) The cleaner removes columns with irrelevant information and null values. Theses images shows that after removing all null values, a significant number of rows were removed from the dataset. In the code "DataProfiler.scala" (which is in this folder) Some additional profiling is done while simultaneously reformatting the data for use with my group-members data files(via changing the layout of dates and transforming the dataset for use with spark dataframes.</p>
