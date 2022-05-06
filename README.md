@@ -1,5 +1,5 @@
 <h1>Ether Price Analysis</h1>
-
+<p>This repository contains code that anlyzes the relationship between social meida hype(in tweets per day from twitter) and the price of ETH, as well as the avg sales volume of ETH nfts.</p>
 <p>
 Inside this folder are a few subdirectories labeled as direction. /ana_code contains analytic data and code. Any scala file can be run in the spark shell. The python file should be run in pyspark. In etl_code there are mapreduce projects that can be run using the included shell scripts. Profiling code is located in /profiling_code, and can be run using the spark shell. Screenshots are included in the /screenshots folder. Any further directions are included in individual readme files.
 </p>
